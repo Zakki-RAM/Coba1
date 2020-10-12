@@ -1,0 +1,15 @@
+# SOAL 1 - Menghitung rata-rata
+# Tuliskan program untuk Soal 1 di bawah ini
+x = eval(input("Masukan bilangan pertama : "))
+y = eval(input("Masukan bilangan kedua : "))
+z = eval(input("Masukan bilangan ketiga : "))
+print("Berapa rata-rata dari bilangan diatas?")
+average = ( x + y + z )/3
+print("Rata-rata", "bilangan", x, y, z, "adalah", average)
+
+
+# SOAL 2 - Menulis kelipatan bilangan
+# Tuliskan program untuk Soal 2 di bawah ini
+num = int(input("Masukan sebuah bilangan bulat: "))
+print("Berapa Kelipatan 1,2,3,4,5 dari bilangan tersebut?")
+print("Kelipatan 1,2,3,4,5 dari bilangan tersebut adalah", num * 1, num * 2, num * 3, num * 4, num * 5, sep="---")
