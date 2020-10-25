@@ -1,0 +1,44 @@
+# DDP LAB-2
+
+# SOAL 1 - Mencetak bilangan
+# Tuliskan program untuk Soal 1 di bawah ini
+print("Soal 1 - Mencetak Bilangan")
+print()
+for Bilangan in range(100, 0, -2):
+  #for in range = untuk perulangan sebuah variabel
+  #Bilangan = nama variabel
+  #angka dimulai dari 100 sampai 0 dan setiap angka di kurang 2 dengan -2 untuk menghasilkan hitung mundur
+	print(Bilangan, end=",") 
+  #end adalah meminta list, jika memakai sep='' maka hasilnya akan kebawah dan tidak ada koma nya
+print() 
+#membuat baris baru
+
+# SOAL 2 - Menghitung rata-rata
+# Tuliskan program untuk Soal 2 di bawah ini
+print("Soal 2 - Mencetak rata-rata")
+print()#membuat baris baru   
+Angka = int(input("Masukkan banyaknya angka: "))
+#untuk memasukkan banyaknya angka bilangan bulat yang mau di hitung
+total = 0
+#menyimpan nilai dan menambahkannya nanti dengan nilai b
+for i in range(Angka):
+  #fungsi Angka di range adalah pengulangan sesuai variabel yang akan di input
+  b = eval(input("Masukkan angka: "))
+  #ini adalah yang akan di ulang sesuai variabel yang akan di input
+  total = total + b 
+  #ini adalah rumus b masuk terus bertambah b baru terus sampai b selesai 
+  c = total / Angka
+  #ini adalah rumus menghitung rata rata
+print("Rata-Rata : ", c) #mencetak hasil rata rata dengan memasukkan variabel total
+print() #membuat baris baru
+
+# SOAL 3 - Mencetak persegi
+# Tuliskan program untuk Soal 3 di bawah ini
+print("Soal No 3 - Mencetak Persegi")
+print()#membuat baris baru
+a = int(input("Masukkan sebuah bilangan bulat: "))
+6 #untuk input variabel angka bilangan bulat
+for i in range(a): #fungsi a di range adalah pengulangan sesuai variabel yang akan di input
+    print("# " * a) #mencetak hasil variabel yang di input dikalikan dengan variabel angka itu juga
+
+
